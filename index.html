@@ -59,8 +59,8 @@ for(var i =0; i < tracks.length; i++){
                          fonts: [baseUrl +'/videojs-ass-support/fonts/nyala.ttf'], // Links to fonts (not required, default font already included in build)
                          //onReady: onReadyFunction,
                          debug: true,
-                         workerUrl: baseUrl +'/videojs-ass-support/subtitles-octopus-worker.js' // Link to WebAssembly-based file "libassjs-worker.js"
-                        
+                         workerUrl: baseUrl +'/videojs-ass-support/subtitles-octopus-worker.js', // Link to WebAssembly-based file "libassjs-worker.js"
+                         legacyWorkerUrl: baseUrl + '/videojs-ass-support/subtitles-octopus-worker-legacy.js'
                      };
                      window.octopusInstance = new SubtitlesOctopus(options);
                  }
