@@ -3,8 +3,8 @@
 <body>
 
 <video id="my-video" class="video-js" width="600"controls preload="auto" poster="Poster link here" data-setup="{}">
-        <source src="https://cdn-cf-east.streamable.com/video/mp4/ylhtmn.mp4?Expires=1686052020&Signature=YK~eUbrLUdsUIOTI0eYVGCvA4kM4mkLi~ncyMrEXzSwABuA4X1RtMbPXEpH7anLs3zilPuD0WVzmmx~bRUsgFVyHTXb99RGTVEsDq1H0iUW8t68948cFNhFsJLWEaKLs7oawDcBNf8znV4fUik25vWD7DBc2j-u4aKKFSKp-rUFVpaMe3d7E9ugxgukz6eykk-j9T1fbrtgoZrGKblACj~lWtr0HZ0X7BnQqbdY-BySmO9pGqnfOuQqSDxBXWOVfvOtxnAjN7Dm67aVLJAqOqwrwn7h9LzXs81w8lnC6affgNHNkKyvHhtVJeL7ZufaIbbrr3YFODZX4ykoIZuwI6g__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ" type="video/mp4">
-        <track kind="captions" src="subs.ass" srclang="it" label="Italiano" default>
+        <source src="https://animethemes.moe/video/ToaruKagakuNoRailgunS-OP1.webm" type="video/webm">
+        <track kind="captions" src="railgun-sub-eng" srclang="en" label="English" default>
     </video>
 <?php
 $player_id="my-video";
