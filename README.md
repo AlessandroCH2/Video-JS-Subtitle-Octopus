@@ -1,3 +1,4 @@
+
 # Video-JS + Subtitle-Octopus
 This Repository contains a php library made for implement subtitle octopus on video js for .ass subtitle support
 
@@ -18,3 +19,9 @@ include "videojs-ass-support/init_player.php"; //init_player.php directory
 ?>
 ```
 You don't need to manually setup video.js as is included in this code
+
+## Demo
+
+A working demo can be found here: https://alessandroch2.github.io/Video-JS-Subtitle-Octopus/index.html
+
+(This html file is the result using the php library as php can't run on github pages)
