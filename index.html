@@ -55,7 +55,7 @@ for(var i =0; i < tracks.length; i++){
                  } else if (SubtitlesOctopus) {
                      var options = {
                          video: video,
-                         subUrl: subUrl,
+                         subUrl: baseUrl +'/'+subUrl,
                          fonts: [baseUrl +'/videojs-ass-support/fonts/nyala.ttf'], // Links to fonts (not required, default font already included in build)
                          //onReady: onReadyFunction,
                          debug: true,
