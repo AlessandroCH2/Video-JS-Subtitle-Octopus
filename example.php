@@ -4,7 +4,8 @@
 
 <video id="my-video" class="video-js" width="600"controls preload="auto" poster="Poster link here" data-setup="{}">
         <source src="https://animethemes.moe/video/ToaruKagakuNoRailgunS-OP1.webm" type="video/webm">
-        <track kind="captions" src="railgun-sub-eng" srclang="en" label="English" default>
+        <track kind="captions" src="railgun-sub-eng.ass" srclang="en" label="English" default>
+         <track kind="captions" src="railgun-sub-it.ass" srclang="it" label="Italian" default>
     </video>
 <?php
 $player_id="my-video";
